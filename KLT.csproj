@@ -52,16 +52,43 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Adminstrator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Adminstrator.Designer.cs">
+      <DependentUpon>Adminstrator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminstratorUC\UC_AddUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminstratorUC\UC_AddUser.Designer.cs">
+      <DependentUpon>UC_AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminstratorUC\UC_Dashboard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AdminstratorUC\UC_Dashboard.Designer.cs">
+      <DependentUpon>UC_Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Adminstrator.resx">
+      <DependentUpon>Adminstrator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminstratorUC\UC_AddUser.resx">
+      <DependentUpon>UC_AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminstratorUC\UC_Dashboard.resx">
+      <DependentUpon>UC_Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

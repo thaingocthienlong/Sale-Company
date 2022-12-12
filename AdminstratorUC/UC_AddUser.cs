@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace KLT
+namespace KLT.AdminstratorUC
 {
-    public partial class Form1 : Form
+    public partial class UC_AddUser : UserControl
     {
-        public Form1()
+        public UC_AddUser()
         {
             InitializeComponent();
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
