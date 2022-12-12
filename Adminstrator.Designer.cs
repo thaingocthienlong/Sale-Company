@@ -35,13 +35,15 @@
             this.btnLogOut = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnAddUser = new Guna.UI2.WinForms.Guna2Button();
             this.btnDashboard = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.uC_Dashboard1 = new KLT.AdminstratorUC.UC_Dashboard();
+            this.guna2Elipse2 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
+            this.uC_AddUser1 = new KLT.AdminstratorUC.UC_AddUser();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -54,7 +56,7 @@
             this.panel1.Controls.Add(this.btnLogOut);
             this.panel1.Controls.Add(this.guna2Button4);
             this.panel1.Controls.Add(this.guna2Button3);
-            this.panel1.Controls.Add(this.guna2Button2);
+            this.panel1.Controls.Add(this.btnAddUser);
             this.panel1.Controls.Add(this.btnDashboard);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
@@ -137,25 +139,26 @@
             this.guna2Button3.TabIndex = 4;
             this.guna2Button3.Text = "View User";
             // 
-            // guna2Button2
+            // btnAddUser
             // 
-            this.guna2Button2.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
-            this.guna2Button2.CheckedState.FillColor = System.Drawing.Color.White;
-            this.guna2Button2.CheckedState.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.CheckedState.Parent = this.guna2Button2;
-            this.guna2Button2.CustomImages.Parent = this.guna2Button2;
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
-            this.guna2Button2.ImageSize = new System.Drawing.Size(30, 30);
-            this.guna2Button2.Location = new System.Drawing.Point(29, 351);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
-            this.guna2Button2.Size = new System.Drawing.Size(246, 45);
-            this.guna2Button2.TabIndex = 3;
-            this.guna2Button2.Text = "Add User";
+            this.btnAddUser.ButtonMode = Guna.UI2.WinForms.Enums.ButtonMode.RadioButton;
+            this.btnAddUser.CheckedState.FillColor = System.Drawing.Color.White;
+            this.btnAddUser.CheckedState.ForeColor = System.Drawing.Color.Black;
+            this.btnAddUser.CheckedState.Parent = this.btnAddUser;
+            this.btnAddUser.CustomImages.Parent = this.btnAddUser;
+            this.btnAddUser.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btnAddUser.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddUser.ForeColor = System.Drawing.Color.White;
+            this.btnAddUser.HoverState.Parent = this.btnAddUser;
+            this.btnAddUser.Image = ((System.Drawing.Image)(resources.GetObject("btnAddUser.Image")));
+            this.btnAddUser.ImageSize = new System.Drawing.Size(30, 30);
+            this.btnAddUser.Location = new System.Drawing.Point(29, 351);
+            this.btnAddUser.Name = "btnAddUser";
+            this.btnAddUser.ShadowDecoration.Parent = this.btnAddUser;
+            this.btnAddUser.Size = new System.Drawing.Size(246, 45);
+            this.btnAddUser.TabIndex = 3;
+            this.btnAddUser.Text = "Add User";
+            this.btnAddUser.Click += new System.EventHandler(this.btnAddUser_Click);
             // 
             // btnDashboard
             // 
@@ -185,9 +188,9 @@
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(41, 194);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(193, 39);
+            this.label1.Size = new System.Drawing.Size(201, 39);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Adminstrator";
+            this.label1.Text = "Administrator";
             // 
             // pictureBox1
             // 
@@ -201,6 +204,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.uC_AddUser1);
             this.panel2.Controls.Add(this.uC_Dashboard1);
             this.panel2.Location = new System.Drawing.Point(275, 0);
             this.panel2.Name = "panel2";
@@ -219,6 +223,18 @@
             this.uC_Dashboard1.Size = new System.Drawing.Size(1105, 768);
             this.uC_Dashboard1.TabIndex = 0;
             this.uC_Dashboard1.Load += new System.EventHandler(this.uC_Dashboard1_Load);
+            // 
+            // guna2Elipse2
+            // 
+            this.guna2Elipse2.TargetControl = this.panel2;
+            // 
+            // uC_AddUser1
+            // 
+            this.uC_AddUser1.BackColor = System.Drawing.Color.White;
+            this.uC_AddUser1.Location = new System.Drawing.Point(0, 0);
+            this.uC_AddUser1.Name = "uC_AddUser1";
+            this.uC_AddUser1.Size = new System.Drawing.Size(1105, 768);
+            this.uC_AddUser1.TabIndex = 1;
             // 
             // Adminstrator
             // 
@@ -247,7 +263,7 @@
         private Guna.UI2.WinForms.Guna2Button btnLogOut;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btnAddUser;
         private Guna.UI2.WinForms.Guna2Button btnDashboard;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -255,5 +271,7 @@
         private System.Windows.Forms.Label label2;
         private Guna.UI2.WinForms.Guna2Elipse guna2Elipse1;
         private AdminstratorUC.UC_Dashboard uC_Dashboard1;
+        private Guna.UI2.WinForms.Guna2Elipse guna2Elipse2;
+        private AdminstratorUC.UC_AddUser uC_AddUser1;
     }
 }

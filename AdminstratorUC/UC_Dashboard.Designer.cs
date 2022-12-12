@@ -91,9 +91,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(79, 29);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(133, 25);
+            this.label2.Size = new System.Drawing.Size(138, 25);
             this.label2.TabIndex = 0;
-            this.label2.Text = "Adminstrator";
+            this.label2.Text = "Administrator";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // panel2

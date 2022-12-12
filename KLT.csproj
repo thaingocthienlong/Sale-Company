@@ -70,6 +70,7 @@
     <Compile Include="AdminstratorUC\UC_Dashboard.Designer.cs">
       <DependentUpon>UC_Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="function.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>

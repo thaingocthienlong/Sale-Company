@@ -38,12 +38,19 @@ namespace KLT
         private void Adminstrator_Load(object sender, EventArgs e)
         {
             uC_Dashboard1.Visible = false;
+            uC_AddUser1.Visible = false;
             btnDashboard.PerformClick();
         }
 
         private void uC_Dashboard1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAddUser_Click(object sender, EventArgs e)
+        {
+            uC_AddUser1.Visible = true;
+            uC_AddUser1.BringToFront();
         }
     }
 }
