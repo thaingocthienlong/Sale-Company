@@ -137,7 +137,8 @@
             this.txtUserRole.ItemHeight = 30;
             this.txtUserRole.Items.AddRange(new object[] {
             "Administrator",
-            "Pharmacist"});
+            "Pharmacist",
+            "Customer"});
             this.txtUserRole.ItemsAppearance.Parent = this.txtUserRole;
             this.txtUserRole.Location = new System.Drawing.Point(156, 192);
             this.txtUserRole.Name = "txtUserRole";

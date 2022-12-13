@@ -33,16 +33,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.guna2Elipse1 = new Guna.UI2.WinForms.Guna2Elipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
+            this.lblAdmin = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
+            this.lblPharmacist = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblCustomer = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.btnSync = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -66,24 +66,24 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.panel1.Controls.Add(this.label5);
+            this.panel1.Controls.Add(this.lblAdmin);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(51, 130);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(308, 597);
             this.panel1.TabIndex = 1;
             // 
-            // label5
+            // lblAdmin
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.White;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(133, 487);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(30, 24);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "10";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.lblAdmin.AutoSize = true;
+            this.lblAdmin.BackColor = System.Drawing.Color.White;
+            this.lblAdmin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAdmin.Location = new System.Drawing.Point(133, 487);
+            this.lblAdmin.Name = "lblAdmin";
+            this.lblAdmin.Size = new System.Drawing.Size(30, 24);
+            this.lblAdmin.TabIndex = 2;
+            this.lblAdmin.Text = "10";
+            this.lblAdmin.Click += new System.EventHandler(this.label5_Click);
             // 
             // label2
             // 
@@ -99,23 +99,23 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
-            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.lblPharmacist);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Location = new System.Drawing.Point(402, 130);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(308, 597);
             this.panel2.TabIndex = 2;
             // 
-            // label6
+            // lblPharmacist
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.White;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(142, 487);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(30, 24);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "10";
+            this.lblPharmacist.AutoSize = true;
+            this.lblPharmacist.BackColor = System.Drawing.Color.White;
+            this.lblPharmacist.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPharmacist.Location = new System.Drawing.Point(142, 487);
+            this.lblPharmacist.Name = "lblPharmacist";
+            this.lblPharmacist.Size = new System.Drawing.Size(30, 24);
+            this.lblPharmacist.TabIndex = 3;
+            this.lblPharmacist.Text = "10";
             // 
             // label3
             // 
@@ -131,23 +131,23 @@
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.panel3.Controls.Add(this.label7);
+            this.panel3.Controls.Add(this.lblCustomer);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Location = new System.Drawing.Point(753, 130);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(308, 597);
             this.panel3.TabIndex = 2;
             // 
-            // label7
+            // lblCustomer
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.White;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(141, 487);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(30, 24);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "10";
+            this.lblCustomer.AutoSize = true;
+            this.lblCustomer.BackColor = System.Drawing.Color.White;
+            this.lblCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCustomer.Location = new System.Drawing.Point(141, 487);
+            this.lblCustomer.Name = "lblCustomer";
+            this.lblCustomer.Size = new System.Drawing.Size(30, 24);
+            this.lblCustomer.TabIndex = 3;
+            this.lblCustomer.Text = "10";
             // 
             // label4
             // 
@@ -169,32 +169,33 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // guna2Button1
+            // btnSync
             // 
-            this.guna2Button1.CheckedState.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.FillColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
-            this.guna2Button1.ImageSize = new System.Drawing.Size(35, 35);
-            this.guna2Button1.Location = new System.Drawing.Point(237, 44);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.PressedColor = System.Drawing.Color.White;
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(34, 35);
-            this.guna2Button1.TabIndex = 4;
+            this.btnSync.CheckedState.FillColor = System.Drawing.Color.Transparent;
+            this.btnSync.CheckedState.Parent = this.btnSync;
+            this.btnSync.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSync.CustomImages.Parent = this.btnSync;
+            this.btnSync.FillColor = System.Drawing.Color.Transparent;
+            this.btnSync.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btnSync.ForeColor = System.Drawing.Color.White;
+            this.btnSync.HoverState.FillColor = System.Drawing.Color.White;
+            this.btnSync.HoverState.Parent = this.btnSync;
+            this.btnSync.Image = ((System.Drawing.Image)(resources.GetObject("btnSync.Image")));
+            this.btnSync.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnSync.Location = new System.Drawing.Point(237, 44);
+            this.btnSync.Name = "btnSync";
+            this.btnSync.PressedColor = System.Drawing.Color.White;
+            this.btnSync.ShadowDecoration.Parent = this.btnSync;
+            this.btnSync.Size = new System.Drawing.Size(34, 35);
+            this.btnSync.TabIndex = 4;
+            this.btnSync.Click += new System.EventHandler(this.btnSync_Click);
             // 
             // UC_Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.btnSync);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
@@ -202,6 +203,7 @@
             this.Controls.Add(this.label1);
             this.Name = "UC_Dashboard";
             this.Size = new System.Drawing.Size(1105, 768);
+            this.Load += new System.EventHandler(this.UC_Dashboard_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
@@ -224,10 +226,10 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label lblAdmin;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private System.Windows.Forms.Label lblCustomer;
+        private System.Windows.Forms.Label lblPharmacist;
+        private Guna.UI2.WinForms.Guna2Button btnSync;
     }
 }
